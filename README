@@ -8,6 +8,10 @@ Data storage : In-memory storage as of now
 
 go run .
 
+## How to run Test
+
+go test ./app
+
 ## APIs
 
 1. GET : /v1/api/albums/ 
@@ -61,3 +65,9 @@ go run .
 8. GET : /v1/api/musicians/{musicianID}/albums
 
 	GET all associated albums of a musician
+
+## TODO
+
+1. Implement Logger
+2. Implement any database provision
+3. Implement middlewares for request validation
